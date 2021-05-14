@@ -1,0 +1,52 @@
+
+mat-card{
+    padding:5px;
+}
+.container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 10px 0px;
+    
+    .col{
+        width:30%;
+        margin:5px;
+        text-align: center;
+    }
+    .soc-img{
+        width:46%;
+        margin:5px;
+    }
+    .mat-card{
+        background:none;
+       p{
+           color:black;
+       }
+     }
+    .search{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        background:red;
+        padding:10px;
+        select{
+            width: 64%;
+            border-radius: 3px;
+            border: none;
+            outline: none;
+            padding: 6px;
+
+           
+         }
+         .btn {
+             width: 20%;
+             background:green;
+             border: none;
+             outline: none;
+             color: white;
+             border-radius: 3px;
+         }
+    }
+    
+}
